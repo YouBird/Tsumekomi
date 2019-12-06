@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root  'users#index'  #この1行を追加
 #  get 'boards' => 'boards#index'
 #  get 'boards/new' => 'boards#new'
 #  post 'boards' => 'boards#create'
